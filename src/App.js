@@ -1,11 +1,12 @@
 
 import './App.css';
-import Form from './Form'
+import Form from './Form';
+import CountClickUser from './CountClickUser';
 function App() {
   return (
     <div className="App">
-   <Form />
-
+      <Form />
+      <CountClickUser />
     </div>
   );
 }
